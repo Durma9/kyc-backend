@@ -48,9 +48,9 @@ npm install
 
 Create `.env` in project root:
 
-PORT=3001  
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/kyc_db  
-JWT_SECRET=super_secret_key  
+PORT=3001
+DATABASE_URL=postgresql://postgres:your_password@localhost:5432/kyc_db
+JWT_SECRET=your_jwt_secret 
 
 Adjust database credentials if needed.
 
